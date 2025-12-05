@@ -25,7 +25,7 @@ function Header() {
         {/* IZQUIERDA: logo */}
         <div className="header-brand">
           <Link to="/" className="brand-text" onClick={closeMenu}>
-            TIENDA NAD
+            TIENDA FAST
           </Link>
         </div>
 
