@@ -8,7 +8,7 @@ const Contacto = () => {
     <section className="contact-page">
       <h2>¿Querés saber más?</h2>
       <p className="contact-sub">
-        Escribinos y te respondemos mientras preparamos un buen café ☕
+        Escribinos para más información de tu pedido 
       </p>
 
       <div className="contact-wrapper">

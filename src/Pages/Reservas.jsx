@@ -18,7 +18,7 @@ const Reservas = () => {
   const [mensaje, setMensaje] = useState("");
 
 
-  const { usuario, esAdmin } = useAuthContext();
+  const { esAdmin } = useAuthContext();
 
   const [mostrarModalEliminar, setMostrarModalEliminar] = useState(false);
   const [reservaAEliminar, setReservaAEliminar] = useState(null);
@@ -128,7 +128,7 @@ const Reservas = () => {
     <div className="reservas-page">
       <h2>Reservar cita</h2>
       <p className="reservas-sub">
-        Elegí día y horario para tu próxima visita a <strong>Tienda Nad</strong>.
+        Elegí día y horario para tu próxima visita a <strong>Tu Restaurante Favorito</strong>.
       </p>
 
       <div className="reservas-wrapper">

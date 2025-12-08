@@ -5,7 +5,8 @@
 //8 Gestión del estado con useState.
 
 import Productos from '../components/Productos.jsx';
-import tiendaNadImage from '../assets/tiendanad.png';
+import WhatsAppButton from '../components/WhatsAppButton.jsx';
+import FondoPaginaInicio from '../assets/fondo-pagina-inicio.jpg';
 
 const Inicio = () => {
   
@@ -13,12 +14,16 @@ const Inicio = () => {
   return(
     <>
       <img className="img-hero-nad"
-        src={tiendaNadImage} 
-        alt="Café. Estilo. Experiencia." 
+        src={FondoPaginaInicio} 
+        alt="Comercio. Estilo. Experiencia." 
       />
       <Productos/>
+      <WhatsAppButton />
     </>
+    
   );
+
+  
 }
 
 export default Inicio;

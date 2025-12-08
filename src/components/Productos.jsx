@@ -60,7 +60,6 @@ const Productos = () =>  {
   if (cargando) return <p>Estamos cargando sus productos...</p>;
 
   return (
-    <>
       <div className="productos-container-nad">
         <Destacados />
         <h2 className="destacados-title">Todos nuestros productos</h2>
@@ -113,7 +112,6 @@ const Productos = () =>  {
           />
         )}
       </div>
-    </>
   );
 };
 

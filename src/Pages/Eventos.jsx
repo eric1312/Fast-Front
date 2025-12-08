@@ -25,7 +25,7 @@ const Eventos = () => {
   return (
     <section className="nad-page">
       <p className="nad-intro">
-        Enterate de las próximas actividades en TIENDA NAD.
+        Enterate de las próximas actividades en Fast.
       </p>
 
       <div className="nad-lista">

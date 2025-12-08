@@ -796,9 +796,38 @@ header {
   color: #fff;
   border: none;
   border-radius: 8px;
-  padding: 0.35rem 0.6rem;
+  padding: 0.5rem 0.6rem;
   font-size: 1.2rem;
   cursor: pointer;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-nad span {
+  display: block;
+  width: 20px;
+  height: 2.5px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-nad.active span:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger-nad.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-nad.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
 }
 
 .cart-count-nad {
@@ -1614,5 +1643,46 @@ header {
 
   .form-producto-grid-nad {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ================== WHATSAPP BUTTON ================== */
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25d366;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 28px;
+}
+
+.whatsapp-button:hover {
+  background-color: #20ba5a;
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:active {
+  transform: scale(0.95);
+}
+
+/* Respuesta para dispositivos móviles */
+@media (max-width: 768px) {
+  .whatsapp-button {
+    bottom: 20px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
   }
 }

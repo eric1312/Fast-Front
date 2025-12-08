@@ -9,15 +9,15 @@ const Gracias = () => {
 
         <div className="gracias-icon-wrap">
           <div className="gracias-icon-circle">
-            <span className="gracias-icon">☕</span>
+            <span className="gracias-icon"><link rel="stylesheet" href="public/logotipo-icono-hamburguesa.png" /></span>
           </div>
         </div>
 
         <h1 className="gracias-title">¡Gracias por tu compra!</h1>
         <p className="gracias-text">
-          Tu pedido está siendo preparado con dedicación por nuestro equipo de baristas.
+          Tu pedido está siendo preparado con dedicación por tu comercio elegido.
           <br />
-          En unos instantes vas a poder disfrutar de la experiencia Tienda Nad.
+          En unos instantes vas a poder disfrutar de la experiencia Tienda Fast.
         </p>
 
         <div className="gracias-buttons">
