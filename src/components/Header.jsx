@@ -24,11 +24,9 @@ function Header() {
       <div className="header-bar">
         {/* IZQUIERDA: logo */}
         <div className="header-brand">
-          <img
-              src="https://fast.com.ar/wp-content/uploads/2025/08/cropped-Branding_FASTAR-16-scaled-1.png"
-              alt="Fast"
-              style={{ height: "60px", objectFit: "contain" }}
-          />
+          <Link to="/" className="brand-text" onClick={closeMenu}>
+            TIENDA FAST
+          </Link>
         </div>
 
         {/* CENTRO / DERECHA: links + login/logout */}
