@@ -9,6 +9,7 @@ import Contacto from './Pages/Contacto.jsx';
 import Eventos from './Pages/Eventos.jsx';
 import Novedades from './Pages/Novedades.jsx';
 import Inicio from './Pages/Inicio.jsx';
+import Destacados from './Pages/Destacados.jsx';
 import ProductoDetalle from './components/ProductoDetalle.jsx';
 import Footer from './components/Footer.jsx';
 import RutaProtegida from "./components/RutaProtegida.jsx";
@@ -52,6 +53,7 @@ function App() {
         <Route path="/eventos" element={<Eventos />} />
         <Route path="/novedades" element={<Novedades />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/destacados" element={<Destacados />} />
         <Route path="/login" element={<Login />} />
         <Route path="/reservas" element={<Reservas />} />
         <Route path='/productos/:id' element={<ProductoDetalle />}/>

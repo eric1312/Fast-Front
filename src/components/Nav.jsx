@@ -36,6 +36,9 @@ const Nav = ({ onLinkClick }) => {
       <Link to="/contacto" className="general-link-nad" onClick={handleClick}>
         Contacto
       </Link>
+      <Link to="/destacados" className="general-link-nad" onClick={handleClick}>
+        Destacados
+      </Link>
 
       {/* SOLO aparece si el rol es admin */}
       {esAdmin && (
@@ -48,4 +51,3 @@ const Nav = ({ onLinkClick }) => {
 };
 
 export default Nav;
-
