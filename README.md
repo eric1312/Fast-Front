@@ -39,3 +39,58 @@ Tenés dos opciones:
 Más profesional
 Escalable
 Útil si el local tiene más empleados
+
+
+**Fast-Front** es una solución completa para el desarrollo frontend moderno, diseñada para acelerar la creación de interfaces web responsivas, eficientes y escalables.
+
+## ✨ Características Principales
+
+### 🏗️ **Arquitectura Modular**
+- Estructura de proyecto organizada y escalable
+- Componentes reutilizables con documentación integrada
+- Configuración preestablecida para diferentes tipos de proyectos
+
+### ⚡ **Rendimiento Optimizado**
+- Bundling automático con code splitting
+- Lazy loading de componentes y rutas
+- Optimización de assets (imágenes, fuentes, estilos)
+- Puntuación Lighthouse superior a 90/100
+
+### 🎨 **Estilización Avanzada**
+- Sistema de diseño configurable (tokens, temas, variables CSS)
+- Soporte para múltiples preprocesadores (Sass, Less, Stylus)
+- Utilidades CSS-in-JS integradas
+- Diseño responsivo móvil-first
+
+### 🔧 **Desarrollo Experiencia**
+- Hot Module Replacement (HMR) en tiempo real
+- Linting y formatting preconfigurados
+- Testing suite integrado (unit, integration, e2e)
+- TypeScript soportado de forma nativa
+- Generadores de componentes automatizados
+
+### 📱 **Compatibilidad Multiplataforma**
+- Progressive Web App (PWA) ready
+- Soporte para SSR/SSG
+- Compatibilidad cross-browser
+- Optimización para SEO
+
+## 🚀 **Comienza Rápidamente**
+
+### Prerrequisitos
+- Node.js 16+ 
+- npm 7+ o yarn 1.22+
+
+### Instalación
+
+```bash
+# Clona el repositorio
+git clone https://github.com/eric1312/Fast-Front.git
+
+# Navega al directorio
+cd Fast-Front
+
+# Instala dependencias
+npm install
+# o
+yarn install
