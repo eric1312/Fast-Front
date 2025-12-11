@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./scripts/fix-perms.cjs && vite build",
     "preview": "vite preview",
     "postinstall": "node ./scripts/fix-perms.cjs"
   },
