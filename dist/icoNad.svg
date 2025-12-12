@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4.8431153mm"
+   height="2.5099244mm"
+   viewBox="0 0 4.8431153 2.5099244"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false">
+    <inkscape:page
+       x="-2.2411081e-22"
+       y="0"
+       width="4.8431153"
+       height="2.5099244"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20.796228,-74.249525)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:3.175px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#666666;stroke-width:0.264583"
+       x="20.666004"
+       y="76.759445"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:Impact;-inkscape-font-specification:'Impact Condensed';fill:#666666;stroke-width:0.264583"
+         x="20.666004"
+         y="76.759445">NAD</tspan></text>
+  </g>
+</svg>
