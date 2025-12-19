@@ -23,7 +23,7 @@ const Destacados = () => {
   const handlePedir = (producto) => {
     agregarAlCarrito(producto);
     toast.success("Producto agregado al carrito!", {
-      icon: "☕",
+      icon: "/imagenes Fast/comida-rapida.png",
     });
   };
 

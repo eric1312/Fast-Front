@@ -265,8 +265,6 @@ header {
 }
 
 /* ================== DETALLE ================== */
-/* ================== DETALLE ================== */
-/* ================== DETALLE ================== */
 
 .detalle-titulo-nad {
   text-align: center;
@@ -1700,7 +1698,7 @@ header {
   width: 50%;
   max-width: 100%;
   bottom: 0;
-  background: transparent;
+  background: rgba(128, 128, 128, 0.9);
   z-index: 1999;
   animation: slideDown 0.3s ease-out;
 }
@@ -1718,7 +1716,7 @@ header {
 }
 
 .dropdown-link:hover {
-  background: rgba(245, 243, 240, 0.8);
+  background: rgba(200, 200, 200, 0.8);
   padding-left: 1.8rem;
 }
 
@@ -1729,7 +1727,7 @@ header {
 }
 
 .dropdown-link-admin:hover {
-  background: rgba(240, 232, 229, 0.8);
+  background: rgba(200, 200, 200, 0.8);
 }
 
 .dropdown-divider {

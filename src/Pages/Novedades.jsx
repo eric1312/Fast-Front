@@ -17,7 +17,7 @@ const Novedades = () => {
 
   return (
     <section className="nad-page">
-      <p className="nad-intro">Lo último que está pasando en TIENDA NAD.</p>
+      <p className="nad-intro">Lo último que está pasando en TIENDA Fast.</p>
 
       <div className="nad-lista">
         {posts.map((n, i) => (
