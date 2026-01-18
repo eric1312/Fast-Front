@@ -15,6 +15,10 @@ import RutaProtegida from "./components/RutaProtegida.jsx";
 import Login from "./Pages/Login.jsx";
 import Admin from "./Pages/Admin.jsx";
 import Reservas from "./Pages/Reservas.jsx";
+import DashboardComercio from "./Pages/DashboardComercio.jsx";
+import DashboardDelivery from "./Pages/DashboardDelivery.jsx";
+import DashboardAseguradora from "./Pages/DashboardAseguradora.jsx";
+import DashboardUsuario from "./Pages/DashboardUsuario.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Gracias from "./Pages/Gracias.jsx";
@@ -63,6 +67,22 @@ function App() {
         <Route path="/admin" element={
                 <RutaProtegida >
                   <Admin />
+                </RutaProtegida>}/>
+        <Route path="/dashboard-comercio" element={
+                <RutaProtegida>
+                  <DashboardComercio />
+                </RutaProtegida>}/>
+        <Route path="/dashboard-delivery" element={
+                <RutaProtegida>
+                  <DashboardDelivery />
+                </RutaProtegida>}/>
+        <Route path="/dashboard-aseguradora" element={
+                <RutaProtegida>
+                  <DashboardAseguradora />
+                </RutaProtegida>}/>
+        <Route path="/dashboard-usuario" element={
+                <RutaProtegida>
+                  <DashboardUsuario />
                 </RutaProtegida>}/>
       </Routes>
         </div>
