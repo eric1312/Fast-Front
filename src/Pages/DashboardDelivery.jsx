@@ -6,7 +6,8 @@ const DashboardDelivery = () => {
   const { usuario, logout, esDelivery } = useAuthContext();
   const navigate = useNavigate();
   const [ubicacion, setUbicacion] = useState(null);
-  const [ordenes, setOrdenes] = useState([
+  /* Se saca el set de clientes en la variable de const setOrdenes */
+  const [ordenes] = useState([
     { id: 1, cliente: "Cliente A", direccion: "Calle 1 #123", estado: "Asignado", monto: 150 },
     { id: 2, cliente: "Cliente B", direccion: "Calle 2 #456", estado: "Entregando", monto: 200 },
   ]);

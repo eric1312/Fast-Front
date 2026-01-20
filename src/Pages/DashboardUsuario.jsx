@@ -5,8 +5,8 @@ import { useState } from "react";
 const DashboardUsuario = () => {
   const { usuario, logout, esUsuario } = useAuthContext();
   const navigate = useNavigate();
-
-  const [ordenes, setOrdenes] = useState([
+  /* Se saca el set de ordenes en la variable de const setOrdenes */
+  const [ordenes] = useState([
     {
       id: 1001,
       fecha: "2025-01-08",

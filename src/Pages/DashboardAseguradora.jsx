@@ -5,8 +5,8 @@ import { useState } from "react";
 const DashboardAseguradora = () => {
   const { usuario, logout, esAseguradora } = useAuthContext();
   const navigate = useNavigate();
-
-  const [motos, setMotos] = useState([
+/* Se saca el set de motos en la variable de const setOrdenes */
+  const [motos] = useState([
     {
       id: 1,
       placa: "ABC-123",
