@@ -61,13 +61,13 @@ const Productos = () =>  {
 
   return (
       <div className="productos-container-nad">
-        <Destacados />
-        <h2 className="destacados-title">Todos nuestros productos</h2>
-
         <Buscador
           label="Buscá por nombre, descripción o categoría"
           placeholder="Buscar cafés, combos, etc..."
         />
+
+        <Destacados />
+        <h2 className="destacados-title">Todos nuestros productos</h2>
 
         <ul className="productos-lista-nad">
           {productosFiltrados.length === 0 ? (
