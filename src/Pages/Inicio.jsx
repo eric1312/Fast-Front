@@ -6,24 +6,16 @@
 
 import Productos from '../components/Productos.jsx';
 import WhatsAppButton from '../components/WhatsAppButton.jsx';
-import FondoPaginaInicio from '../assets/fondo-pagina-inicio.jpg';
+import BannerCarousel from '../components/BannerCarousel.jsx';
 
 const Inicio = () => {
-  
-
-  return(
+  return (
     <>
-      <img className="img-hero-nad"
-        src={FondoPaginaInicio} 
-        alt="Comercio. Estilo. Experiencia." 
-      />
-      <Productos/>
+      <BannerCarousel />
+      <Productos />
       <WhatsAppButton />
     </>
-    
   );
-
-  
-}
+};
 
 export default Inicio;
